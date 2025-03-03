@@ -13,7 +13,7 @@
     "lint": "eslint . --quiet",
     "lintfix": "eslint . --fix",
     "develop": "cd ..; pnpm dev:e2e:server",
-    "start": "cd ..; pnpm start"
+    "start": "node init && cd ..; pnpm start"
   },
   "devDependencies": {
     "@n8n/api-types": "workspace:*",
