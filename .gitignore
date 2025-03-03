@@ -8,10 +8,6 @@ npm-debug.log*
 yarn.lock
 google-generated-credentials.json
 _START_PACKAGE
-.env
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.default.json
 .idea
 nodelinter.config.json
 **/package-lock.json
@@ -22,3 +18,8 @@ packages/**/.turbo
 CHANGELOG-*.md
 *.mdx
 build-storybook.log
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
